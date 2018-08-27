@@ -5,6 +5,7 @@ The command-line interface
 
 
 usage: qsub_submit.py -h
+
                       [-h] [--verbosity] [--call CALL] [--vmem VMEM] [--hrt HRT]
 
                       [--parallel PARALLEL] [--outerror OUTERROR]
