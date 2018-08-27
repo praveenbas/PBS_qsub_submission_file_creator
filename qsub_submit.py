@@ -66,7 +66,7 @@ shfile.write( "# all environment variables in the qsub command’s environment a
 shfile.write("#PBS -V \n")
 shfile.write("#  Send email when the job begins, ends, aborts, or is suspended\n")
 shfile.write("#PBS -m bea\n")
-shfile.write( "#PBS -M praveen.baskaran@uni-tuebingen.de\n")
+shfile.write( "#PBS -M xxxn@xxx.com\n")
 shfile.write("#PBS -l walltime=%s\n" % lhrt)
 #print FH "#PBS -q cfc\n";
 
