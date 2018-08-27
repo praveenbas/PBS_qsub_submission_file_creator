@@ -3,8 +3,8 @@
 The command-line interface
 ===========================
 
-.. code-block:: bash
-usage: qsub_submit.py 
+
+usage: qsub_submit.py -h
                       [-h] [--verbosity] [--call CALL] [--vmem VMEM] [--hrt HRT]
 
                       [--parallel PARALLEL] [--outerror OUTERROR]
@@ -29,7 +29,7 @@ usage: qsub_submit.py
     --vmem VMEM           Virtural memeory requred to run the job [ Type: str ]
                         [default : 2G]
                         
-   --hrt HRT             Time to run the job [ Type: str ] [default : 1:00:00]
+    --hrt HRT             Time to run the job [ Type: str ] [default : 1:00:00]
   
     --parallel PARALLEL, -p PARALLEL
                         Number of parallel cores required [ Type: int ]
