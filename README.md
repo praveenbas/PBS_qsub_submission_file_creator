@@ -24,18 +24,18 @@ usage: qsub_submit.py
   
     --verbosity           Increase output verbosity
   
-   --call CALL, -c CALL  Program or command to execute a task in double quotes
+    --call CALL, -c CALL  Program or command to execute a task in double quotes
   
     --vmem VMEM           Virtural memeory requred to run the job [ Type: str ]
                         [default : 2G]
                         
    --hrt HRT             Time to run the job [ Type: str ] [default : 1:00:00]
   
-  --parallel PARALLEL, -p PARALLEL
+    --parallel PARALLEL, -p PARALLEL
                         Number of parallel cores required [ Type: int ]
                         [default : 1]
                         
-  --outerror OUTERROR, -o OUTERROR
+    --outerror OUTERROR, -o OUTERROR
                         File to print the output/ error messages [ Type: str ]
                         [default: command in call option]
                         
